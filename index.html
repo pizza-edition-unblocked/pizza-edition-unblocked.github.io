@@ -284,6 +284,22 @@
             transform: scale(1.05);
             box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
         }
+        .mobileShow {display: none;}
+
+/* Smartphone Portrait and Landscape */
+@media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px){ 
+    .mobileShow {display: inline;}
+}
+.mobileHide { display: inline; }
+
+/* Smartphone Portrait and Landscape */
+@media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px){
+   .mobileHide { display: none;}
+}
     </style>
 </head>
 
@@ -348,9 +364,10 @@
             <h5 class="section-title">TOP Games of Week</h5>
 
             <br><br>
-            <hr>
-            <div class="ad" style="text-align: center; justify-content: center;">
+            
+            <div class="mobileHide" style="text-align: center; justify-content: center;">
             <h4>Advertisement</h4>
+            <hr>
             <script type="text/javascript">
 	atOptions = {
 		'key' : '320ae9355c49e58eb2b2926e0cb14409',
@@ -360,8 +377,8 @@
 		'params' : {}
 	};
 </script>
-<script type="text/javascript" src="//www.highperformanceformat.com/320ae9355c49e58eb2b2926e0cb14409/invoke.js"></script></div>
-<hr><br><br>
+<script type="text/javascript" src="//www.highperformanceformat.com/320ae9355c49e58eb2b2926e0cb14409/invoke.js"></script> 
+<hr></div><br><br>
 
           <div class="container1">
                 <div class="image-container">
