@@ -1243,36 +1243,48 @@
         const db = getDatabase(app);
 
         // Comment logic
-        const commentForm = document.getElementById('commentForm');
-        const commentsList = document.getElementById('commentsList');
-        const usernameInput = document.getElementById('username');
-        const commentInput = document.getElementById('comment');
+        // Comment form elements
+  const commentForm = document.getElementById('commentForm');
+  const commentsList = document.getElementById('commentsList');
+  const usernameInput = document.getElementById('username');
+  const commentInput = document.getElementById('comment');
 
-        // Listen for new comments
-        const commentsRef = ref(db, 'comments/1v1lol');
-        onChildAdded(commentsRef, (data) => {
-          const val = data.val();
-          const date = new Date(val.timestamp || Date.now());
-          const dateStr = date.toLocaleString();
-          const div = document.createElement('div');
-          div.className = 'comment-item';
-          div.innerHTML = `<span class="user">${val.username}</span> <span class="date">${dateStr}</span><br>${val.comment}`;
-          commentsList.prepend(div);
-        });
+  // Reference to the 'comments' collection in Firestore
+  const commentsRef = collection(db, 'comments');
 
-        // Handle new comment
-        commentForm.addEventListener('submit', async (e) => {
-          e.preventDefault();
-          const username = usernameInput.value.trim().substring(0, 20);
-          const comment = commentInput.value.trim().substring(0, 200);
-          if (!username || !comment) return;
-          await push(commentsRef, {
-            username,
-            comment,
-            timestamp: Date.now()
-          });
-          commentInput.value = '';
-        });
+  // Listen for new comments
+  onSnapshot(commentsRef, (snapshot) => {
+    commentsList.innerHTML = ''; // Clear previous comments
+    snapshot.forEach((doc) => {
+      const data = doc.data();
+      const date = new Date(data.timestamp);
+      const dateStr = date.toLocaleString(); // Format timestamp
+      const div = document.createElement('div');
+      div.className = 'comment-item';
+      div.innerHTML = `<span class="user">${data.username}</span> <span class="date">${dateStr}</span><br>${data.comment}`;
+      commentsList.prepend(div); // Add new comment to the top
+    });
+  });
+
+  // Handle new comment submission
+  commentForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const username = usernameInput.value.trim().substring(0, 20);
+    const comment = commentInput.value.trim().substring(0, 200);
+
+    if (!username || !comment) return; // Don't submit empty comments
+
+    // Add the comment to Firestore
+    await addDoc(commentsRef, {
+      username: username,
+      comment: comment,
+      timestamp: new Date() // Save the current time as timestamp
+    });
+
+    // Clear the comment input fields after submission
+    commentInput.value = '';
+  });
       </script>
 </body>
 
