@@ -60,6 +60,39 @@
       display: inline-block;
       margin-bottom: 8px;
     }
+    /* Add to your CSS file or <style> tag */
+#comment-section {
+  background: rgba(30,30,30,0.85);
+  border-radius: 10px;
+  padding: 18px 12px;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+#commentsList {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+.comment-item {
+  background: rgba(255,255,255,0.07);
+  border-radius: 7px;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  color: #f0d210;
+  word-break: break-word;
+}
+.comment-item .user {
+  font-weight: bold;
+  color: #f0d210;
+}
+.comment-item .date {
+  font-size: 12px;
+  color: #bbb;
+  float: right;
+}
+@media (max-width: 768px) {
+  #comment-section { padding: 10px 4px; }
+}
   </style>
   <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="../css/jquery-comments.css" />
