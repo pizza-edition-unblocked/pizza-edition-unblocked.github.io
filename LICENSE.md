@@ -1,19 +1,19 @@
- <h1>License Agreement - Pizza Edition Unblocked</h1>
+ <h1>License Agreement - Pizza Edition Browser</h1>
 
         <p><strong>Last Updated: May 10, 2025</strong></p>
 
         <p>
-            Welcome to Pizza Edition Unblocked, accessible at Pizza Edition Unblocked. This License Agreement governs the use of the original code, design, and content (collectively, the "Materials") created by Pizza Edition Unblocked for this website. Our site provides access to unblocked browser-based games such as Choppy Orc, Race Survival, Gladihoppers, Poly Track, Tomb of the Mask, and more, which are owned by their respective developers. This license pertains solely to the Materials created by Pizza Edition Unblocked and does not apply to third-party game content.
+            Welcome to Pizza Edition Browser, accessible at Pizza Edition Browser. This License Agreement governs the use of the original code, design, and content (collectively, the "Materials") created by Pizza Edition Browser for this website. Our site provides access to Browser browser-based games such as Choppy Orc, Race Survival, Gladihoppers, Poly Track, Tomb of the Mask, and more, which are owned by their respective developers. This license pertains solely to the Materials created by Pizza Edition Browser and does not apply to third-party game content.
         </p>
 
         <h2>1. Ownership and Copyright</h2>
         <p>
-            All Materials on Pizza Edition Unblocked, including but not limited to the website’s HTML, CSS, JavaScript, design elements, and original text content (e.g., game descriptions, Terms and Conditions, Privacy Policy), are the exclusive property of Pizza Edition Unblocked. These Materials are protected by copyright laws of the United States and international copyright treaties.
+            All Materials on Pizza Edition Browser, including but not limited to the website’s HTML, CSS, JavaScript, design elements, and original text content (e.g., game descriptions, Terms and Conditions, Privacy Policy), are the exclusive property of Pizza Edition Browser. These Materials are protected by copyright laws of the United States and international copyright treaties.
         </p>
 
         <h2>2. License Restrictions</h2>
         <p>
-            The Materials on Pizza Edition Unblocked are not licensed for public use. You may not copy, reproduce, modify, distribute, create derivative works from, publicly display, or otherwise use any portion of the Materials without prior written permission from Pizza Edition Unblocked. This includes, but is not limited to:
+            The Materials on Pizza Edition Browser are not licensed for public use. You may not copy, reproduce, modify, distribute, create derivative works from, publicly display, or otherwise use any portion of the Materials without prior written permission from Pizza Edition Browser. This includes, but is not limited to:
         </p>
         <ul>
             <li>Copying the website’s code (HTML, CSS, JavaScript) for use in other projects.</li>
@@ -21,12 +21,12 @@
             <li>Republishing or redistributing original text content, such as game descriptions or legal pages.</li>
         </ul>
         <p>
-            Any use of the Materials without explicit permission constitutes a violation of this License Agreement and infringes on Pizza Edition Unblocked’s intellectual property rights.
+            Any use of the Materials without explicit permission constitutes a violation of this License Agreement and infringes on Pizza Edition Browser’s intellectual property rights.
         </p>
 
         <h2>3. Permission to Use Materials</h2>
         <p>
-            If you wish to use any of Pizza Edition Unblocked’s Materials, you must obtain prior written permission. To request permission, please contact us with the following details:
+            If you wish to use any of Pizza Edition Browser’s Materials, you must obtain prior written permission. To request permission, please contact us with the following details:
         </p>
         <ul>
             <li>Your name and contact information.</li>
@@ -39,7 +39,7 @@
 
         <h2>4. Unauthorized Use and Enforcement</h2>
         <p>
-            Unauthorized use of Pizza Edition Unblocked’s Materials without permission is strictly prohibited. If you use, copy, or distribute our Materials without authorization, Pizza Edition Unblocked reserves the right to take legal action to protect its intellectual property rights. This may include, but is not limited to:
+            Unauthorized use of Pizza Edition Browser’s Materials without permission is strictly prohibited. If you use, copy, or distribute our Materials without authorization, Pizza Edition Browser reserves the right to take legal action to protect its intellectual property rights. This may include, but is not limited to:
         </p>
         <ul>
             <li>Issuing a cease-and-desist notice.</li>
@@ -47,17 +47,17 @@
             <li>Seeking injunctive relief to stop further unauthorized use.</li>
         </ul>
         <p>
-            You will be responsible for any legal fees, damages, or other costs incurred by Pizza Edition Unblocked as a result of your unauthorized use.
+            You will be responsible for any legal fees, damages, or other costs incurred by Pizza Edition Browser as a result of your unauthorized use.
         </p>
 
         <h2>5. Third-Party Content</h2>
         <p>
-            The games hosted on Pizza Edition Unblocked, such as Choppy Orc, Race Survival, Gladihoppers, Poly Track, and Tomb of the Mask, are the intellectual property of their respective developers. This License Agreement does not apply to third-party games. For licensing inquiries regarding these games, please contact the original developers directly.
+            The games hosted on Pizza Edition Browser, such as Choppy Orc, Race Survival, Gladihoppers, Poly Track, and Tomb of the Mask, are the intellectual property of their respective developers. This License Agreement does not apply to third-party games. For licensing inquiries regarding these games, please contact the original developers directly.
         </p>
 
         <h2>6. Changes to This License Agreement</h2>
         <p>
-            We may update this License Agreement from time to time to reflect changes in our practices or legal requirements. The updated agreement will be posted on this page with a new "Last Updated" date. Your continued interaction with Pizza Edition Unblocked after changes constitutes your acceptance of the new terms.
+            We may update this License Agreement from time to time to reflect changes in our practices or legal requirements. The updated agreement will be posted on this page with a new "Last Updated" date. Your continued interaction with Pizza Edition Browser after changes constitutes your acceptance of the new terms.
         </p>
 
         <h2>7. Governing Law</h2>
@@ -67,9 +67,9 @@
 
         <h2>8. Contact Information</h2>
         <p>
-            For questions about this License Agreement or to request permission to use our Materials, please contact us at <a href="mailto:rehandeveloper48@gmail.com">rehandeveloper48@gmail.com</a>. You may also reach out via the support options on Pizza Edition Unblocked.
+            For questions about this License Agreement or to request permission to use our Materials, please contact us at <a href="mailto:rehandeveloper48@gmail.com">rehandeveloper48@gmail.com</a>. You may also reach out via the support options on Pizza Edition Browser.
         </p>
 
         <p>
-            Thank you for respecting our intellectual property rights while enjoying the unblocked games on Pizza Edition Unblocked.
+            Thank you for respecting our intellectual property rights while enjoying the Browser games on Pizza Edition Browser.
         </p>
