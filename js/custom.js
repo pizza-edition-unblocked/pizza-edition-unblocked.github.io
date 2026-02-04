@@ -7,7 +7,7 @@ This file will not be overwritten by the updater
 */
 
 // JavaScript code
-function search_animal() {
+function search_animal() {  
   let input = document.getElementById("searchbar").value;
   input = input.toLowerCase();
   let x = document.getElementsByClassName("animals");
