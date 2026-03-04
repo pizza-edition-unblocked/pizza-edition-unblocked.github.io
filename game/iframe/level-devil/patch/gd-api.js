@@ -3964,7 +3964,7 @@
                     }), Bf = e, ml = r, Nf = Gu, Ff = H0, E = Yc, pl = zn.exports, Gf = Po, zf = Ri.get, el = x0, x = gl, Zf = pl("native-string-replace", String.prototype.replace), Hf = RegExp.prototype.exec, Kf = Hf, qf = ml("".charAt), Vf = ml("".indexOf), Wf = ml("".replace), Yf = ml("".slice), Jf = (po = /b*/g,
                     Bf(Hf, w = /a/, "a"),
                     Bf(Hf, po, "a"),
-                    0 !== w.lastIndex || 0 !== po.lastIndex), Xf = E.BROKEN_CARET, Qf = void 0 !== /()??/.exec("")[1], S = Kf = Jf || Qf || Xf || el || x ? function(e) {
+                    0 !== w.lastIndex || 0 !== po.lastIndex), Xf = E.BROKEN_CARET, Qf = void 0 !== /()/.exec("")[1], S = Kf = Jf || Qf || Xf || el || x ? function(e) {
                         var t, r, n, o, i, a, s = this, u = zf(s), e = Nf(e), c = u.raw;
                         if (c)
                             return c.lastIndex = s.lastIndex,

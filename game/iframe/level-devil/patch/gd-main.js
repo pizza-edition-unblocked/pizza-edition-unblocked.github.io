@@ -1855,7 +1855,7 @@
                     _o.call(ne, "a"),
                     0 !== et.lastIndex || 0 !== ne.lastIndex)
                       , ko = Je.UNSUPPORTED_Y || Je.BROKEN_CARET
-                      , xo = void 0 !== /()??/.exec("")[1]
+                      , xo = void 0 !== /()/.exec("")[1]
                       , e = Ao = Eo || xo || ko || X || bo ? function(e) {
                         var t, n, r, i, o, a, s = this, c = yo(s), u = go(e), d = c.raw;
                         if (d)

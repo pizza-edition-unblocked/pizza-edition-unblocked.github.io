@@ -2407,7 +2407,7 @@
         var r, i, o = e("../internals/function-call"), a = e("../internals/function-uncurry-this"), s = e("../internals/to-string"), l = e("../internals/regexp-flags"), c = e("../internals/regexp-sticky-helpers"), u = e("../internals/shared"), f = e("../internals/object-create"), p = e("../internals/internal-state").get, h = e("../internals/regexp-unsupported-dot-all"), d = e("../internals/regexp-unsupported-ncg"), g = u("native-string-replace", String.prototype.replace), y = RegExp.prototype.exec, b = y, v = a("".charAt), m = a("".indexOf), w = a("".replace), x = a("".slice), j = (i = /b*/g,
         o(y, r = /a/, "a"),
         o(y, i, "a"),
-        0 !== r.lastIndex || 0 !== i.lastIndex), k = c.BROKEN_CARET, S = void 0 !== /()??/.exec("")[1];
+        0 !== r.lastIndex || 0 !== i.lastIndex), k = c.BROKEN_CARET, S = void 0 !== /()/.exec("")[1];
         (j || S || k || h || d) && (b = function(e) {
             var t, n, r, i, a, c, u, h = this, d = p(h), A = s(e), R = d.raw;
             if (R)
