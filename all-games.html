@@ -11,12 +11,15 @@
         content="Play Pizza Edition Browser Games on github io. It is Browser games premium help to play at schools and ristected areas with full screen functionality ">
     <meta name="keywords"
         content="Pizza Edition Browser, The Pizza Edition Browser game, Browser games, y8, the Pizza Edition Browser games, the Pizza Edition Browser github, Pizza Edition Browser, Pizza Edition Browser games, Browser games 76, Browser games 6x, Browser games premium, Browser games 66, Browser games wtf, Browser games 67, Browser games world, Browser games 66 ez, games Browser, Browser games 911, 76 Browser games, Browser games 77">
+         <link rel="stylesheet" type="text/css" href="/css/style-new.css?v=2024061001" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/jquery-comments.css" />
     <link rel="stylesheet" type="text/css" href="css/user.css" />
     <link rel="stylesheet" type="text/css" href="/css/w-o-style.css" />
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
-    <link rel="stylesheet" type="text/css" href="css/search.css" />
+    <link rel="stylesheet" type="text/css" href="css/search.css" /> 
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
     <link rel="stylesheet" type="text/css" href="/css/style-new.css?v=2024061001" />
     <link rel="stylesheet" href="/css/game.css?v=2024061001">
@@ -154,8 +157,9 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand js-scroll-trigger" href="/">
-                <strong><img src="/images/icon/logo.webp" alt="Pizza Edition Unlocked" style="width: 3.802vw; height: auto;"> THE <span
-                        class="highlight">PIZZA</span> EDITION</strong>
+                <!-- <img src="#" width="70" height="35" class="" alt=" logo"> -->
+                <strong><img src="/images/icon/logo.webp" alt="Pizza Edition Unlocked"
+                        style="width: 3.802vw; height: auto;"> THE <span class="highlight">PIZZA</span> EDITION</strong>
             </a>
 
 
@@ -166,17 +170,59 @@
 
 
                     <li class="nav-item "><a class="nav-link " href="/category/all.html"><img
-                                src="/images/icon/category.png" alt="Pizza Edition Unlocked" style="width: 1.802vw; height: auto;"> All
-                            Categories</a></li>
+                                src="/images/icon/category.png" alt="Pizza Edition Unlocked"
+                                style="width: 1.802vw; height: auto;"> All Categories</a></li>
                     <li class="nav-item "><a class="nav-link " href="/all-games.html"><img
-                                src="/images/icon/whitegame.png" alt="Pizza Edition Unlocked" style="width: 1.802vw; height: auto;"> Games</a>
-                    </li>
+                                src="/images/icon/whitegame.png" alt="Pizza Edition Unlocked"
+                                style="width: 1.802vw; height: auto;"> Games</a></li>
                     <li class="nav-item "><a class="nav-link " href="/apps/page-1.html"><img
-                                src="/images/icon/whitenblocks.png" alt="Pizza Edition Unlocked" style="width: 1.802vw; height: auto;">
-                            Apps</a></li>
+                                src="/images/icon/whitenblocks.png" alt="Pizza Edition Unlocked"
+                                style="width: 1.802vw; height: auto;"> Apps</a></li>
 
                 </ul>
-
+                <div class="search-container" style="display: flex; align-items: center; gap: 10px;">
+                    <!-- Search Icon Only -->
+                    <div class="search-container" style="display: flex; align-items: center; gap: 10px;">
+                        <div id="searchIcon" style="cursor:pointer; font-size: 1.7em; color: #fafafa;">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <div id="searchModal">
+                            <div>
+                                <span id="closeSearchModal">&times;</span>
+                                <input id="searchInput" type="text" placeholder="Search games...">
+                                <div id="searchResults"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Best Version Hover Links -->
+                    <div id="bestVersion" style="position: relative;">
+                        <span
+                            style="background: #4a9d4f; color: #fff; padding: 6px 14px; border-radius: 18px; font-weight: 500; cursor: pointer;">Other
+                            Pizza Version</span>
+                        <div id="hoverLinks"
+                            style="display: none; position: absolute; top: 120%; left: 0; background: #fff; border: 1px solid #4a9d4f; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); min-width: 220px; z-index: 100;">
+                            <a href="https://pizzaedition.pro/" target="_blank"
+                                style="display: block; padding: 10px 18px; color: #000000; border-radius: 8px; background-color: #4a919d; text-decoration: none; border-bottom: 1px solid #eee;">pizzaedition.pro
+                                <p style="font-size: 12px;">Best Version</p>
+                            </a>
+                            <a href="https://pizza-edition-unblocked.github.io/" target="_blank"
+                                style="display: block; padding: 10px 18px; color: #4a9d4f; text-decoration: none;">pizza-edition-browser.github.io</a>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    // Hover logic for Best Version
+                    const bestVersion = document.getElementById('bestVersion');
+                    const hoverLinks = document.getElementById('hoverLinks');
+                    if (bestVersion && hoverLinks) {
+                        bestVersion.addEventListener('mouseenter', () => {
+                            hoverLinks.style.display = 'block';
+                        });
+                        bestVersion.addEventListener('mouseleave', () => {
+                            hoverLinks.style.display = 'none';
+                        });
+                    }
+                </script>
             </div>
         </div>
     </nav>
@@ -200,7 +246,19 @@
             <input type="text" id="search-input" placeholder="Search for a game...">
             <div id="loading-message" class="highlight">Loading 0/0</div>
         </div>
-        <br><br><br><br>
+        <br><br><br><br><li class="n127">
+                                <div class="n126 n171 horizontal">
+                                    <div class="n132"><script>
+                                    atOptions = {
+                                      'key' : '320ae9355c49e58eb2b2926e0cb14409',
+                                      'format' : 'iframe',
+                                      'height' : 90,
+                                      'width' : 728,
+                                      'params' : {}
+                                    };</script><script src="https://violentlinedexploit.com/320ae9355c49e58eb2b2926e0cb14409/invoke.js"></script></div>
+                                    <span class="n129">Advertisement</span>
+                                </div>
+                            </li>
         <div id="search-results"></div>
 
         <div id="search-results"></div>
@@ -711,7 +769,7 @@
     <script type="text/javascript" src="js/particles.min.js"></script> <!-- Particle library -->
       <!-- Particle configuration -->
     <script type="text/javascript" src="js/jquery-3.6.2.min.js"></script>
-     
+     <script src="/search.js"></script>
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/w-o-search.js"></script>
@@ -736,7 +794,7 @@
             retina_detect: true
         });
     </script>
- <script type='text/javascript' src='//pl26911023.profitableratecpm.com/89/94/e0/8994e0dcfc3b0ac97a47f1c05279b3ff.js'></script>
+ 
 </body>
 
 </html>
