@@ -102,11 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
             }
     });
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "vke5joxz7z");
+    
 
      // Prevent scrolling when keys are pressed inside the iframe
     const iframe = document.getElementById('test_app_frame');
