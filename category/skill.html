@@ -105,38 +105,78 @@
     <!-- Add a container for particles -->
     <div id="particles-js"></div>
 		<!-- Navigation-->
-		<nav class="navbar navbar-expand-lg navbar-dark top-nav" id="mainNav">
-			<div class="container">
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<a class="navbar-brand js-scroll-trigger" href="/">
-					<strong><img src="/images/icon/logo.webp" alt="Pizza Edition Unlocked" style="width: 3.802vw; height: auto;"> THE  <span
-            class="highlight">PIZZA</span> EDITION</strong>
-				</a>
-	
-
-				<div class="navbar-collapse collapse" id="nav-menu">
-
-
-        <ul class="navbar-nav">
+		  <nav class="navbar navbar-expand-lg navbar-dark top-nav" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
+                aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand js-scroll-trigger" href="/">
+                <!-- <img src="#" width="70" height="35" class="" alt=" logo"> -->
+                <strong><img src="/images/icon/logo.webp" alt="Pizza Edition Unlocked"
+                        style="width: 3.802vw; height: auto;"> THE <span class="highlight">PIZZA</span> EDITION</strong>
+            </a>
 
 
-          <li class="nav-item "><a class="nav-link " href="/category/all.html"><img src="/images/icon/category.png"
-                alt="Pizza Edition Unlocked" style="width: 1.802vw; height: auto;"> All Categories</a></li>
-          <li class="nav-item "><a class="nav-link " href="/all-games.html"><img src="/images/icon/whitegame.png"
-                alt="Pizza Edition Unlocked" style="width: 1.802vw; height: auto;"> Games</a></li>
-          <li class="nav-item "><a class="nav-link " href="/apps/page-1.html"><img src="/images/icon/whitenblocks.png"
-                alt="Pizza Edition Unlocked" style="width: 1.802vw; height: auto;"> Apps</a></li>
+            <div class="navbar-collapse collapse" id="nav-menu">
 
-        </ul>
-        <div class="search-container">
-          <input type="text" id="gameSearch" placeholder="Search for a game..." oninput="searchGames()">
-          <div id="gameList"></div>
+
+                <ul class="navbar-nav">
+
+
+                    <li class="nav-item "><a class="nav-link " href="/category/all.html"><img
+                                src="/images/icon/category.png" alt="Pizza Edition Unlocked"
+                                style="width: 1.802vw; height: auto;"> All Categories</a></li>
+                    <li class="nav-item "><a class="nav-link " href="/all-games.html"><img
+                                src="/images/icon/whitegame.png" alt="Pizza Edition Unlocked"
+                                style="width: 1.802vw; height: auto;"> Games</a></li>
+                    <li class="nav-item "><a class="nav-link " href="/apps/page-1.html"><img
+                                src="/images/icon/whitenblocks.png" alt="Pizza Edition Unlocked"
+                                style="width: 1.802vw; height: auto;"> Apps</a></li>
+
+                </ul>
+                <div class="search-container" style="display: flex; align-items: center; gap: 10px;">
+                    <!-- Search Icon Only -->
+                    <div class="search-container" style="display: flex; align-items: center; gap: 10px;">
+                        <div id="searchIcon" style="cursor:pointer; font-size: 1.7em; color: #fafafa;">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <div id="searchModal">
+                            <div>
+                                <span id="closeSearchModal">&times;</span>
+                                <input id="searchInput" type="text" placeholder="Search games...">
+                                <div id="searchResults"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Best Version Hover Links -->
+                    <div id="bestVersion" style="position: relative;">
+                        <span
+                            style="background: #4a9d4f; color: #fff; padding: 6px 14px; border-radius: 18px; font-weight: 500; cursor: pointer;">Other
+                            Pizza Version</span>
+                        <div id="hoverLinks"
+                            style="display: none; position: absolute; top: 120%; left: 0; background: #fff; border: 1px solid #4a9d4f; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); min-width: 220px; z-index: 100;">
+                             <a href="https://thepizzaedition-games.bitbucket.io/" target="_blank"style="display:block;padding:12px 18px;border-radius:1px;background:#4a919d;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.2);transition:0.25s;"onmouseover="this.style.background='#5ea8b4';this.style.transform='translateX(3px)'"onmouseout="this.style.background='#4a919d';this.style.transform='translateX(0)'"><div style="display:flex;align-items:center;gap:12px;"><img src="/images/icon/logo.webp" alt="Pizza Edition" width="36" height="36" style="object-fit:contain;"><span style="color:#ffffff;font-size:15px;font-weight:500;">Pizza Edition Bitbucket</span></div></a>
+                          <a href="https://pizzaedition.pro/" target="_blank"  style="display:block;padding:12px 18px;border-radius:1px;background:#4a919d;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.2);transition:0.25s;"onmouseover="this.style.background='#5ea8b4';this.style.transform='translateX(3px)'"onmouseout="this.style.background='#4a919d';this.style.transform='translateX(0)'"><div style="display:flex;align-items:center;gap:12px;"><img src="/images/icon/logo.webp" alt="Pizza Edition" width="36" height="36" style="object-fit:contain;"><span style="color:#ffffff;font-size:15px;font-weight:500; margin-right: 20px;"><span>The Pizza Edition  </span></span></div></a><a href="https://pizza-edition-unblocked.github.io/" target="_blank"  style="display:block;padding:12px 18px;border-radius:1px;background:#4a919d;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.2);transition:0.25s;"onmouseover="this.style.background='#5ea8b4';this.style.transform='translateX(3px)'"onmouseout="this.style.background='#4a919d';this.style.transform='translateX(0)'"><div style="display:flex;align-items:center;gap:12px;"><img src="/images/icon/logo.webp" alt="Pizza Edition" width="36" height="36" style="object-fit:contain;"><span style="color:#ffffff;font-size:15px;font-weight:500;">Pizza Edition Unblocked</span></div></a>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    // Hover logic for Best Version
+                    const bestVersion = document.getElementById('bestVersion');
+                    const hoverLinks = document.getElementById('hoverLinks');
+                    if (bestVersion && hoverLinks) {
+                        bestVersion.addEventListener('mouseenter', () => {
+                            hoverLinks.style.display = 'block';
+                        });
+                        bestVersion.addEventListener('mouseleave', () => {
+                            hoverLinks.style.display = 'none';
+                        });
+                    }
+                </script>
+            </div>
         </div>
-      </div>
-    </div>
-  </nav>		
+    </nav>		
 
 
 
@@ -1641,21 +1681,22 @@
         <a href="/dmca.html" style="margin: 0 10px; color: #f1f1f1; text-decoration: none;">DMCA</a>
         <a href="/policy.html" style="margin: 0 10px; color: #f1f1f1; text-decoration: none;">Policy</a>
       </div>
-      <p style="font-size: 14px; color: #f1f1f1;">© Copyrights 2024 THE-PIZZA-EDITION</p>
+      <p style="font-size: 14px; color: #f1f1f1;">© Copyrights 2026 THE-PIZZA-EDITION</p>
     </div>
   </div>
 
 
 	
-	<!-- Include particle effect scripts -->
+	
+  <!-- Include particle effect scripts -->
   <script type="text/javascript" src="../js/particles.min.js"></script> <!-- Particle library -->
     <!-- Particle configuration -->
-  <script type="text/javascript" src="../js/jquery-3.6.2.min.js"></script>
-   
-  <script type="text/javascript" src="../js/popper.min.js"></script>
-  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="../js/script.js"></script>
-  <script type="text/javascript" src="../js/custom.js"></script>
+  <script src="/search.js"></script>
+   <script src="/js/main.js"></script>
+   <script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery-3.6.2.min.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 <script>
  particlesJS("particles-js", {

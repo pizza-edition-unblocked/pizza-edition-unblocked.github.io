@@ -639,17 +639,22 @@ body {
     z-index: -1;
   }
   .col-md-9,
-  .box {
-    border: 2px solid #f0d210;
-    border-radius: 20px;
-  }
-  .box {
-    background-color: black;
-    border: 2px solid #f0d210;
-    border-radius: 10px;
-    padding: 20px;
-    margin-top: 20px;
-    color: white;
+    .box {
+      border: 2px solid #f0d210;
+      /* Adjust the border width if needed */
+      border-radius: 20px;
+    }
+
+    .box {
+      background-color: #2f3644;
+      border: 2px solid #f0d210;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 20px;
+      color: white;}
+      a {
+    color: #f0d210; /* Link color */
+    text-decoration: none; /* Remove underline */
   }
   a {
     color: #f0d210;

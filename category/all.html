@@ -3,7 +3,8 @@
 
 <head>
     <meta name="publisher" content="Rehan Developer">
-    <meta name="copyright" content="Rehan Developer">    <link rel="icon" type="image/x-icon" href="/images/icon/logo.webp">
+    <meta name="copyright" content="Rehan Developer">
+    <link rel="icon" type="image/x-icon" href="/images/icon/logo.webp">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>Explore the best Browser browser games in Pizza Edition Browser</title>
@@ -15,8 +16,9 @@
     <link rel="stylesheet" href="/css/game.css?v=2024061001">
     <link rel="stylesheet" href="/css/category.css?v=2024061001">
     <link rel="stylesheet" href="/css/mark.css?v=2024061001">
-  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="../css/style.css" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <!-- Google fonts-->
@@ -28,7 +30,7 @@
         {
           "@context": "https://schema.org",
           "@type": "WebPage",
-          "name": "Discover the Best Browser Browser Games in 2025 | Pizza Edition Browser",
+          "name": "Discover the Best Browser Browser Games in 2026 | Pizza Edition Browser",
           "url": "https://pizza-edition-unblocked.github.io/category/all.html",
           "description": "Browse our categories to find your next favorite game, from action-packed adventures to challenging puzzles, all playable online for free!",
           "publisher": {
@@ -454,15 +456,16 @@
     <!-- Add a container for particles -->
     <div id="particles-js"></div>
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark top-nav" id="mainNav">
+     <nav class="navbar navbar-expand-lg navbar-dark top-nav" id="mainNav">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
                 aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand js-scroll-trigger" href="/">
-                <strong><img src="/images/icon/logo.webp" alt="Pizza Edition Unlocked" style="width: 3.802vw; height: auto;"> THE <span
-                        class="highlight">PIZZA</span> EDITION</strong>
+                <!-- <img src="#" width="70" height="35" class="" alt=" logo"> -->
+                <strong><img src="/images/icon/logo.webp" alt="Pizza Edition Unlocked"
+                        style="width: 3.802vw; height: auto;"> THE <span class="highlight">PIZZA</span> EDITION</strong>
             </a>
 
 
@@ -473,20 +476,55 @@
 
 
                     <li class="nav-item "><a class="nav-link " href="/category/all.html"><img
-                                src="/images/icon/category.png" alt="Pizza Edition Unlocked" style="width: 1.802vw; height: auto;"> All
-                            Categories</a></li>
+                                src="/images/icon/category.png" alt="Pizza Edition Unlocked"
+                                style="width: 1.802vw; height: auto;"> All Categories</a></li>
                     <li class="nav-item "><a class="nav-link " href="/all-games.html"><img
-                                src="/images/icon/whitegame.png" alt="Pizza Edition Unlocked" style="width: 1.802vw; height: auto;"> Games</a>
-                    </li>
+                                src="/images/icon/whitegame.png" alt="Pizza Edition Unlocked"
+                                style="width: 1.802vw; height: auto;"> Games</a></li>
                     <li class="nav-item "><a class="nav-link " href="/apps/page-1.html"><img
-                                src="/images/icon/whitenblocks.png" alt="Pizza Edition Unlocked" style="width: 1.802vw; height: auto;">
-                            Apps</a></li>
+                                src="/images/icon/whitenblocks.png" alt="Pizza Edition Unlocked"
+                                style="width: 1.802vw; height: auto;"> Apps</a></li>
 
                 </ul>
-                <div class="search-container">
-                    <input type="text" id="gameSearch" placeholder="Search for a game..." oninput="searchGames()">
-                    <div id="gameList"></div>
+                <div class="search-container" style="display: flex; align-items: center; gap: 10px;">
+                    <!-- Search Icon Only -->
+                    <div class="search-container" style="display: flex; align-items: center; gap: 10px;">
+                        <div id="searchIcon" style="cursor:pointer; font-size: 1.7em; color: #fafafa;">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <div id="searchModal">
+                            <div>
+                                <span id="closeSearchModal">&times;</span>
+                                <input id="searchInput" type="text" placeholder="Search games...">
+                                <div id="searchResults"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Best Version Hover Links -->
+                    <div id="bestVersion" style="position: relative;">
+                        <span
+                            style="background: #4a9d4f; color: #fff; padding: 6px 14px; border-radius: 18px; font-weight: 500; cursor: pointer;">Other
+                            Pizza Version</span>
+                        <div id="hoverLinks"
+                            style="display: none; position: absolute; top: 120%; left: 0; background: #fff; border: 1px solid #4a9d4f; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); min-width: 220px; z-index: 100;">
+                             <a href="https://thepizzaedition-games.bitbucket.io/" target="_blank"style="display:block;padding:12px 18px;border-radius:1px;background:#4a919d;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.2);transition:0.25s;"onmouseover="this.style.background='#5ea8b4';this.style.transform='translateX(3px)'"onmouseout="this.style.background='#4a919d';this.style.transform='translateX(0)'"><div style="display:flex;align-items:center;gap:12px;"><img src="/images/icon/logo.webp" alt="Pizza Edition" width="36" height="36" style="object-fit:contain;"><span style="color:#ffffff;font-size:15px;font-weight:500;">Pizza Edition Bitbucket</span></div></a>
+                          <a href="https://pizzaedition.pro/" target="_blank"  style="display:block;padding:12px 18px;border-radius:1px;background:#4a919d;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.2);transition:0.25s;"onmouseover="this.style.background='#5ea8b4';this.style.transform='translateX(3px)'"onmouseout="this.style.background='#4a919d';this.style.transform='translateX(0)'"><div style="display:flex;align-items:center;gap:12px;"><img src="/images/icon/logo.webp" alt="Pizza Edition" width="36" height="36" style="object-fit:contain;"><span style="color:#ffffff;font-size:15px;font-weight:500; margin-right: 20px;"><span>The Pizza Edition  </span></span></div></a><a href="https://pizza-edition-unblocked.github.io/" target="_blank"  style="display:block;padding:12px 18px;border-radius:1px;background:#4a919d;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.2);transition:0.25s;"onmouseover="this.style.background='#5ea8b4';this.style.transform='translateX(3px)'"onmouseout="this.style.background='#4a919d';this.style.transform='translateX(0)'"><div style="display:flex;align-items:center;gap:12px;"><img src="/images/icon/logo.webp" alt="Pizza Edition" width="36" height="36" style="object-fit:contain;"><span style="color:#ffffff;font-size:15px;font-weight:500;">Pizza Edition Unblocked</span></div></a>
+                        </div>
+                    </div>
                 </div>
+                <script>
+                    // Hover logic for Best Version
+                    const bestVersion = document.getElementById('bestVersion');
+                    const hoverLinks = document.getElementById('hoverLinks');
+                    if (bestVersion && hoverLinks) {
+                        bestVersion.addEventListener('mouseenter', () => {
+                            hoverLinks.style.display = 'block';
+                        });
+                        bestVersion.addEventListener('mouseleave', () => {
+                            hoverLinks.style.display = 'none';
+                        });
+                    }
+                </script>
             </div>
         </div>
     </nav>
@@ -524,6 +562,22 @@
             style="text-align: center; color: white; font-family: Arial, sans-serif; font-size: 2.5rem; margin: 20px 0;">
             <strong>ALL <span class="highlight" style="color: #f0d210;">GAMING</span> CATEGORIES</strong>
         </h2> <br><br>
+        <li class="n127">
+            <div class="n126 n171 horizontal">
+                <div class="n132">
+                    <script>
+                        atOptions = {
+                            'key': '320ae9355c49e58eb2b2926e0cb14409',
+                            'format': 'iframe',
+                            'height': 90,
+                            'width': 728,
+                            'params': {}
+                        };</script>
+                    <script src="https://violentlinedexploit.com/320ae9355c49e58eb2b2926e0cb14409/invoke.js"></script>
+                </div>
+                <span class="n129">Advertisement</span>
+            </div>
+        </li>
         <div class="row grid-container" id="all-catgories-section">
 
 
@@ -960,31 +1014,36 @@
 
 
 
-        </div><br><br><br><br><br>
+        </div><br>
+        <li class="n127">
+            <div class="n126 n171 horizontal">
+                <div class="n132">
+                    <script>
+                        atOptions = {
+                            'key': '320ae9355c49e58eb2b2926e0cb14409',
+                            'format': 'iframe',
+                            'height': 90,
+                            'width': 728,
+                            'params': {}
+                        };</script>
+                    <script src="https://violentlinedexploit.com/320ae9355c49e58eb2b2926e0cb14409/invoke.js"></script>
+                </div>
+                <span class="n129">Advertisement</span>
+            </div>
+        </li>
+        <br><br><br><br>
 
         <!-- end Poplular -->
 
 
 
-        <div class="mobileHide" style="text-align: center; justify-content: center;">
-                  
-        <script type="text/javascript">
-      atOptions = {
-        'key' : '320ae9355c49e58eb2b2926e0cb14409',
-        'format' : 'iframe',
-        'height' : 90,
-        'width' : 728,
-        'params' : {}
-      };
-    </script>
-    <script type="text/javascript" src="//www.highperformanceformat.com/320ae9355c49e58eb2b2926e0cb14409/invoke.js"></script> 
-     </div> <br>
-    <div class="box">
-            <h1 style="text-align: center;" >Explore Categories on Pizza Edition Browser</h1><br>
+        <div class="box">
+            <h1 style="text-align: center;">Explore Categories on Pizza Edition Browser</h1><br>
 
             <p style="text-align: center;">
-                Discover the best Browser browser games in 2025 at <a href="https://pizza-edition-unblocked.github.io/">Pizza
-                    Edition</a>. Browse our categories to find your next favorite game, from 3D adventures to skill
+                Discover the best Browser browser games at <a href="https://pizza-edition-unblocked.github.io/">THe
+                    Pizza Edition</a>. Browse our categories to find your next favorite game, from 3D adventures to
+                skill
                 challenges, all playable online for free!
             </p>
 
@@ -992,12 +1051,13 @@
             <div class="category-section">
                 <h2>3D Games</h2>
                 <p>
-                    Dive into the world of <strong>Browser 3D games</strong> at Pizza Edition Browser! In 2025, these browser
+                    Dive into the world of <strong>Browser 3D games</strong> at Pizza Edition Browser! In 2026, these
+                    browser
                     games offer stunning depth with immersive environments, ideal for fans of <strong>free online 3D
                         games</strong>. Titles like <em>Poly Track</em> showcase dynamic 3D racing tracks, while new
                     additions bring enhanced graphics and interactive challenges. Playable directly in your browser,
                     these <strong>3D browser games</strong> are perfect for gamers seeking a next-level experience in
-                    2025.
+                    2026.
                 </p>
                 <a href="/category/3d.html">Explore 3D Games</a>
             </div> <br>
@@ -1006,38 +1066,69 @@
             <div class="category-section">
                 <h2>Action Games</h2>
                 <p>
-                    Unleash your energy with <strong>Browser action games</strong> at Pizza Edition Browser! In 2025, these
+                    Unleash your energy with <strong>Browser action games</strong> at Pizza Edition Browser! In 2026,
+                    these
                     browser games deliver fast-paced fun with titles like <em>Choppy Orc</em>, where you solve puzzles
                     with an axe, and <em>Gladihoppers</em>, a hopping gladiator battle. Perfect for lovers of
                     <strong>free online action games</strong>, our collection features intuitive controls and
                     challenging levels. These <strong>action browser games</strong> are accessible anytime, making them
-                    a top pick in 2025.
+                    a top pick in 2026.
                 </p>
-                <a href="/category/action.html">Explore Action Games</a>
+                <ul>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/house-of-hazards.html"><span>House of
+                                Hazards</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/blumgi-rocket.html"><span>Blumgi
+                                Rocket</span></a></li>
+                    <li><a
+                            href="https://pizza-edition-unblocked.github.io/game/gladihoppers.html"><span>Gladihoppers</span></a>
+                    </li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/fortz.html"><span>Fortz</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/recoil.html"><span>Recoil</span></a>
+                    </li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/stickman-army-team-battle.html"><span>Stickman
+                                Army Team Battle</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/battle-wheels.html"><span>Battle
+                                Wheels</span></a></li>
+                </ul>
             </div> <br>
 
             <!-- Adventure Games Category -->
             <div class="category-section">
                 <h2>Adventure Games</h2>
                 <p>
-                    Embark on epic journeys with <strong>Browser adventure games</strong> at Pizza Edition Browser! In 2025,
+                    Embark on epic journeys with <strong>Browser adventure games</strong> at Pizza Edition Browser! In
+                    2026,
                     these browser games offer exciting quests and exploration, with titles like <em>Tomb of the
                         Mask</em> leading you through mazes and traps. Ideal for fans of <strong>free online adventure
                         games</strong>, our collection features engaging stories and challenges. Play these
-                    <strong>adventure browser games</strong> directly in your browser for a 2025 gaming adventure.
+                    <strong>adventure browser games</strong> directly in your browser for a 2026 gaming adventure.
                 </p>
-                <a href="/category/adventure.html">Explore Adventure Games</a>
+                <ul>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/crossy-road.html"><span>Crossy
+                                Road</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/rolly-vortex.html"><span>Rolly
+                                Vortex</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/stack-ball.html"><span>Stack
+                                Ball</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/candy-jump.html"><span>Candy
+                                Jump</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/rocket-pult.html"><span>Rocket
+                                Pult</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/perfect-peel.html"><span>Perfect
+                                Peel</span></a></li>
+                </ul>
             </div> <br>
 
             <!-- Car Games Category -->
             <div class="category-section">
                 <h2>Car Games</h2>
                 <p>
-                    Hit the road with <strong>Browser car games</strong> at Pizza Edition Browser! In 2025, these browser
+                    Hit the road with <strong>Browser car games</strong> at Pizza Edition Browser! In 2026, these
+                    browser
                     games bring exciting races with titles like <em>Poly Track</em>, featuring customizable 3D tracks,
                     and <em>Race Survival</em> with intense arena battles. Perfect for fans of <strong>free online car
                         games</strong>, our collection offers speed and strategy. These <strong>car browser
-                        games</strong> are playable in your browser, ideal for 2025 gaming sessions.
+                        games</strong> are playable in your browser, ideal for 2026 gaming sessions.
                 </p>
                 <a href="/category/car.html">Explore Car Games</a>
             </div> <br>
@@ -1046,11 +1137,12 @@
             <div class="category-section">
                 <h2>Fighting Games</h2>
                 <p>
-                    Step into the ring with <strong>Browser fighting games</strong> at Pizza Edition Browser! In 2025, these
+                    Step into the ring with <strong>Browser fighting games</strong> at Pizza Edition Browser! In 2026,
+                    these
                     browser games offer intense combat with titles like <em>Gladihoppers</em>, featuring unique hopping
                     battles. Perfect for fans of <strong>free online fighting games</strong>, our collection delivers
                     strategic fights and physics-based action. These <strong>fighting browser games</strong> are
-                    accessible in your browser, a hit in 2025.
+                    accessible in your browser, a hit in 2026.
                 </p>
                 <a href="/category/fighting.html">Explore Fighting Games</a>
             </div> <br>
@@ -1059,22 +1151,31 @@
             <div class="category-section">
                 <h2>Idle Games</h2>
                 <p>
-                    Unwind with <strong>Browser idle games</strong> at Pizza Edition Browser! In 2025, these browser games let
+                    Unwind with <strong>Browser idle games</strong> at Pizza Edition Browser! In 2026, these browser
+                    games let
                     you progress with minimal effort, ideal for fans of <strong>free online idle games</strong>. Titles
                     like upcoming idle simulators offer passive growth and upgrades. Play these <strong>idle browser
-                        games</strong> directly in your browser for a stress-free 2025 gaming experience.
+                        games</strong> directly in your browser for a stress-free 2026 gaming experience.
                 </p>
-                <a href="/category/idle.html">Explore Idle Games</a>
+                <ul>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/idle-lumber-inc.html"><span>Idle Lumber
+                                Inc</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/idle-startup-tycoon.html"><span>Idle
+                                Startup Tycoon</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/idle-digging-tycoon.html"><span>Idle
+                                Digging Tycoon</span></a></li>
+                </ul>
             </div> <br>
 
             <!-- Moto Games Category -->
             <div class="category-section">
                 <h2>Moto Games</h2>
                 <p>
-                    Rev up with <strong>Browser moto games</strong> at Pizza Edition Browser! In 2025, these browser games
+                    Rev up with <strong>Browser moto games</strong> at Pizza Edition Browser! In 2026, these browser
+                    games
                     deliver thrilling rides with upcoming moto racing titles and classics like <em>Poly Track</em>
                     variants. Perfect for fans of <strong>free online moto games</strong>, our collection offers jumps
-                    and stunts. These <strong>moto browser games</strong> are playable in your browser, a 2025 favorite.
+                    and stunts. These <strong>moto browser games</strong> are playable in your browser, a 2026 favorite.
                 </p>
                 <a href="/category/moto.html">Explore Moto Games</a>
             </div> <br>
@@ -1083,10 +1184,11 @@
             <div class="category-section">
                 <h2>Multiplayer Games</h2>
                 <p>
-                    Team up with <strong>Browser multiplayer games</strong> at Pizza Edition Browser! In 2025, these browser
+                    Team up with <strong>Browser multiplayer games</strong> at Pizza Edition Browser! In 2026, these
+                    browser
                     games offer social fun with titles like <em>Race Survival</em> for competitive races. Perfect for
                     fans of <strong>free online multiplayer games</strong>, our collection fosters collaboration. These
-                    <strong>multiplayer browser games</strong> are accessible in your browser, a 2025 trend.
+                    <strong>multiplayer browser games</strong> are accessible in your browser, a 2026 trend.
                 </p>
                 <a href="/category/multiplayer.html">Explore Multiplayer Games</a>
             </div> <br>
@@ -1095,10 +1197,11 @@
             <div class="category-section">
                 <h2>New Games</h2>
                 <p>
-                    Stay ahead with <strong>Browser new games</strong> at Pizza Edition Browser! In 2025, these browser games
+                    Stay ahead with <strong>Browser new games</strong> at Pizza Edition Browser! In 2026, these browser
+                    games
                     introduce the latest titles, including updates to <em>Poly Track</em> and new adventures. Perfect
                     for fans of <strong>free online new games</strong>, our collection refreshes regularly. These
-                    <strong>new browser games</strong> are playable in your browser, a 2025 highlight.
+                    <strong>new browser games</strong> are playable in your browser, a 2026 highlight.
                 </p>
                 <a href="/category/new.html">Explore New Games</a>
             </div> <br>
@@ -1107,35 +1210,64 @@
             <div class="category-section">
                 <h2>Popular Games</h2>
                 <p>
-                    Join the crowd with <strong>Browser popular games</strong> at Pizza Edition Browser! In 2025, these
+                    Join the crowd with <strong>Browser popular games</strong> at Pizza Edition Browser! In 2026, these
                     browser games feature fan favorites like <em>Choppy Orc</em>, <em>Gladihoppers</em>, and <em>Poly
                         Track</em>. Perfect for lovers of <strong>free online popular games</strong>, our collection
                     showcases top picks. These <strong>popular browser games</strong> are accessible in your browser, a
-                    2025 must-play.
+                    2026 must-play.
                 </p>
-                <a href="/category/popular.html">Explore Popular Games</a>
+                <ul>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/tiny-fishing.html"><span>Tiny
+                                Fishing</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/paper-io-2.html"><span>Paper IO
+                                2</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/temple-run-2.html"><span>Temple Run
+                                2</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/subway-surfers-monaco.html"><span>Subway
+                                Surfers Monaco</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/subway-surfers-newyork.html"><span>Subway
+                                Surfers New York</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/subway-surfers-houston.html"><span>Subway
+                                Surfers Houston</span></a></li>
+                </ul>
             </div> <br>
 
             <!-- Puzzle Games Category -->
             <div class="category-section">
                 <h2>Puzzle Games</h2>
                 <p>
-                    Challenge your mind with <strong>Browser puzzle games</strong> at Pizza Edition Browser! In 2025, these
+                    Challenge your mind with <strong>Browser puzzle games</strong> at Pizza Edition Browser! In 2026,
+                    these
                     browser games test your skills with titles like <em>Choppy Orc</em>, featuring axe-based puzzles.
                     Ideal for fans of <strong>free online puzzle games</strong>, our collection offers brain-teasing
-                    fun. These <strong>puzzle browser games</strong> are playable in your browser, a 2025 favorite.
+                    fun. These <strong>puzzle browser games</strong> are playable in your browser, a 2026 favorite.
                 </p>
-                <a href="/category/puzzle.html">Explore Puzzle Games</a>
+                <ul>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/geometry-dash.html"><span>Geometry
+                                Dash</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/the-impossible-quiz.html"><span>The
+                                Impossible Quiz</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/tetris-flash.html"><span>Tetris
+                                Flash</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/11-11.html"><span>11-11</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/cat-trap.html"><span>Cat Trap</span></a>
+                    </li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/maze-path-of-light.html"><span>Maze Path
+                                of Light</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/wordle-unlimited.html"><span>Wordle
+                                Unlimited</span></a></li>
+                </ul>
             </div> <br>
 
             <!-- Running Games Category -->
             <div class="category-section">
                 <h2>Running Games</h2>
                 <p>
-                    Sprint to victory with <strong>Browser running games</strong> at Pizza Edition Browser! In 2025, these
+                    Sprint to victory with <strong>Browser running games</strong> at Pizza Edition Browser! In 2026,
+                    these
                     browser games offer speedy challenges with upcoming titles and classics. Perfect for fans of
                     <strong>free online running games</strong>, our collection delivers endless races. These
-                    <strong>running browser games</strong> are accessible in your browser, a 2025 thrill.
+                    <strong>running browser games</strong> are accessible in your browser, a 2026 thrill.
                 </p>
                 <a href="/category/running.html">Explore Running Games</a>
             </div> <br>
@@ -1144,23 +1276,57 @@
             <div class="category-section">
                 <h2>Racing Games</h2>
                 <p>
-                    Speed into action with <strong>Browser racing games</strong> at Pizza Edition Browser! In 2025, these
+                    Speed into action with <strong>Browser racing games</strong> at Pizza Edition Browser! In 2026,
+                    these
                     browser games bring thrills with <em>Poly Track</em>’s custom tracks and <em>Race Survival</em>’s
                     arena battles. Perfect for fans of <strong>free online racing games</strong>, our collection offers
-                    speed and strategy. These <strong>racing browser games</strong> are playable in your browser, a 2025
+                    speed and strategy. These <strong>racing browser games</strong> are playable in your browser, a 2026
                     hit.
                 </p>
-                <a href="/category/racing.html">Explore Racing Games</a>
+                <ul>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/super-star-car.html"><span>Super Star
+                                Car</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/poly-track.html"><span>Poly
+                                Track</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/super-bike-the-champion.html"><span>Super
+                                Bike The Champion</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/stunt-car-challenge-3.html"><span>Stunt
+                                Car Challenge 3</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/extreme-car-driving-simulator.html"><span>Extreme
+                                Car Driving Simulator</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/go-kart-go-ultra.html"><span>Go Kart Go
+                                Ultra</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/parking-fury-3d-bounty-hunter.html"><span>Parking
+                                Fury 3D Bounty Hunter</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/drive-mad.html"><span>Drive
+                                Mad</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/jelly-truck.html"><span>Jelly
+                                Truck</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/moto-road-rash-3d.html"><span>Moto Road
+                                Rash 3D</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/shortcut-race.html"><span>Shortcut
+                                Race</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/highway-racer-3d.html"><span>Highway
+                                Racer 3D</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/traffic-rider.html"><span>Traffic
+                                Rider</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/moto-maniac.html"><span>Moto
+                                Maniac</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/madalin-stunt-cars-2.html"><span>Madalin
+                                Stunt Cars 2</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/kart-race-3d.html"><span>Kart Race
+                                3D</span></a></li>
+                </ul>
             </div> <br>
 
             <!-- Shooting Games Category -->
             <div class="category-section">
                 <h2>Shooting Games</h2>
                 <p>
-                    Lock and load with <strong>Browser shooting games</strong> at Pizza Edition Browser! In 2025, these
+                    Lock and load with <strong>Browser shooting games</strong> at Pizza Edition Browser! In 2026, these
                     browser games offer target challenges with upcoming titles. Perfect for fans of <strong>free online
                         shooting games</strong>, our collection delivers precision and action. These <strong>shooting
-                        browser games</strong> are accessible in your browser, a 2025 standout.
+                        browser games</strong> are accessible in your browser, a 2026 standout.
                 </p>
                 <a href="/category/shooting.html">Explore Shooting Games</a>
             </div> <br>
@@ -1169,10 +1335,10 @@
             <div class="category-section">
                 <h2>Skill Games</h2>
                 <p>
-                    Hone your talents with <strong>Browser skill games</strong> at Pizza Edition Browser! In 2025, these
+                    Hone your talents with <strong>Browser skill games</strong> at Pizza Edition Browser! In 2026, these
                     browser games challenge your precision with titles like <em>Tomb of the Mask</em>’s maze navigation.
                     Perfect for fans of <strong>free online skill games</strong>, our collection offers diverse tests.
-                    These <strong>skill browser games</strong> are playable in your browser, a 2025 must-try.
+                    These <strong>skill browser games</strong> are playable in your browser, a 2026 must-try.
                 </p>
                 <a href="/category/skill.html">Explore Skill Games</a>
             </div> <br>
@@ -1181,32 +1347,51 @@
             <div class="category-section">
                 <h2>Sports Games</h2>
                 <p>
-                    Get in the game with <strong>Browser sports games</strong> at Pizza Edition Browser! In 2025, these
+                    Get in the game with <strong>Browser sports games</strong> at Pizza Edition Browser! In 2026, these
                     browser games offer athletic challenges with upcoming titles. Perfect for fans of <strong>free
                         online sports games</strong>, our collection delivers competition. These <strong>sports browser
-                        games</strong> are accessible in your browser, a 2025 favorite.
+                        games</strong> are accessible in your browser, a 2026 favorite.
                 </p>
-                <a href="/category/sports.html">Explore Sports Games</a>
+                <ul>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/retro-bowl.html"><span>Retro
+                                Bowl</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/soccer-skills-world-cup.html"><span>Soccer
+                                Skills World Cup</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/soccer-skills-champions-league.html"><span>Soccer
+                                Skills Champions League</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/tennis-masters.html"><span>Tennis
+                                Masters</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/power-badminton.html"><span>Power
+                                Badminton</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/stickman-golf.html"><span>Stickman
+                                Golf</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/athletics-hero.html"><span>Athletics
+                                Hero</span></a></li>
+                    <li><a href="https://pizza-edition-unblocked.github.io/game/basketball-stars.html"><span>Basketball
+                                Stars</span></a></li>
+                </ul>
             </div> <br>
 
             <!-- Stickman Games Category -->
             <div class="category-section">
                 <h2>Stickman Games</h2>
-                <meta name="title" content="Stickman Games - Browser Stickman Games 2025 | Pizza Edition Browser">
+                <meta name="title" content="Stickman Games - Browser Stickman Games 2026 | Pizza Edition Browser">
                 <meta name="description"
-                    content="Fight and fun with Browser stickman games online in 2025 at Pizza Edition Browser. Play unique challenges, no downloads, for browser gaming!">
+                    content="Fight and fun with Browser stickman games online in 2026 at Pizza Edition Browser. Play unique challenges, no downloads, for browser gaming!">
                 <p>
-                    Jump into action with <strong>Browser stickman games</strong> at Pizza Edition Browser! In 2025, these
+                    Jump into action with <strong>Browser stickman games</strong> at Pizza Edition Browser! In 2026,
+                    these
                     browser games feature stick-figure adventures with upcoming titles. Perfect for fans of <strong>free
                         online stickman games</strong>, our collection offers quirky fun. These <strong>stickman browser
-                        games</strong> are playable in your browser, a 2025 delight.
+                        games</strong> are playable in your browser, a 2026 delight.
                 </p>
                 <a href="/category/stickman.html">Explore Stickman Games</a>
             </div> <br>
 
             <p style="text-align: center;">
                 Want to request a game for any category? Visit our <a href="/contact.html">Contact Us</a> page to let us
-                know! Stay updated with the latest Browser games at <a href="https://pizza-edition-unblocked.github.io/">Pizza
+                know! Stay updated with the latest Browser games at <a
+                    href="https://pizza-edition-unblocked.github.io/">Pizza
                     Edition</a>.
             </p>
         </div>
@@ -1237,22 +1422,24 @@
                 <a href="/dmca.html" style="margin: 0 10px; color: #f1f1f1; text-decoration: none;">DMCA</a>
                 <a href="/policy.html" style="margin: 0 10px; color: #f1f1f1; text-decoration: none;">Policy</a>
             </div>
-            <p style="font-size: 14px; color: #f1f1f1;">© Copyrights 2024 THE-PIZZA-EDITION</p>
+            <p style="font-size: 14px; color: #f1f1f1;">© Copyrights 2026 THE-PIZZA-EDITION</p>
         </div>
     </div>
 
 
 
     <!-- Include particle effect scripts -->
-    <script type="text/javascript" src="../js/particles.min.js"></script> <!-- Particle library -->
-      <!-- Particle configuration -->
-    <script type="text/javascript" src="../js/jquery-3.6.2.min.js"></script>
-     
-    <script type="text/javascript" src="../js/popper.min.js"></script>
-    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../js/script.js"></script>
-    <script type="text/javascript" src="../js/custom.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+  <!-- Include particle effect scripts -->
+  <script type="text/javascript" src="../js/particles.min.js"></script> <!-- Particle library -->
+    <!-- Particle configuration -->
+  <script src="/search.js"></script>
+   <script src="/js/main.js"></script>
+   <script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery-3.6.2.min.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
     <script>
         particlesJS("particles-js", {
             particles: {
@@ -1275,7 +1462,7 @@
     </div>
 
 
- 
+
 </body>
 
 </html>
